@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>李大霄直播回放 2026-09-15 · 内容总结</title>
+<style>
+  :root{
+    --bg:#f6f7f9;
+    --card:#ffffff;
+    --ink:#1a1d24;
+    --ink-2:#4a5160;
+    --ink-3:#7b8494;
+    --line:#e4e7ec;
+    --accent:#c0392b;
+    --accent-soft:#fdf2f1;
+    --blue:#2b5f8f;
+    --blue-soft:#eef4fa;
+    --amber:#8a6d1f;
+    --amber-soft:#fdf8e8;
+    --green:#1f6f4a;
+    --green-soft:#eef7f2;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;background:var(--bg);color:var(--ink);
+    font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB","Source Han Sans SC",system-ui,-apple-system,sans-serif;
+    line-height:1.75;-webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:940px;margin:0 auto;padding:40px 24px 80px;}
+  header.top{
+    background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:28px 30px;margin-bottom:22px;
+  }
+  .kicker{font-size:12px;letter-spacing:.16em;color:var(--accent);font-weight:600;margin-bottom:10px;}
+  h1{font-size:25px;line-height:1.4;margin:0 0 14px;font-weight:700;}
+  .meta{display:flex;flex-wrap:wrap;gap:8px 22px;font-size:13px;color:var(--ink-3);}
+  .meta b{color:var(--ink-2);font-weight:600;}
+  .oneliner{
+    margin-top:20px;padding:16px 18px;background:var(--accent-soft);
+    border-left:3px solid var(--accent);border-radius:0 8px 8px 0;font-size:15px;color:#5c2b25;
+  }
+  section{
+    background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:26px 30px;margin-bottom:18px;
+  }
+  h2{font-size:18px;margin:0 0 6px;font-weight:700;display:flex;align-items:baseline;gap:10px;}
+  h2 .ts{
+    font-size:12px;font-weight:600;color:var(--blue);background:var(--blue-soft);
+    padding:2px 9px;border-radius:20px;white-space:nowrap;letter-spacing:.02em;
+  }
+  h3{font-size:14.5px;margin:22px 0 8px;font-weight:700;color:var(--ink);}
+  h3:first-of-type{margin-top:14px;}
+  p{margin:0 0 12px;font-size:14.5px;color:var(--ink-2);}
+  ul{margin:0 0 12px;padding-left:20px;}
+  li{font-size:14.5px;color:var(--ink-2);margin-bottom:7px;}
+  li b, p b{color:var(--ink);font-weight:600;}
+  .quote{
+    font-size:14px;color:#4a5160;background:#fafbfc;border-left:2px solid var(--line);
+    padding:8px 14px;border-radius:0 6px 6px 0;margin:10px 0 14px;
+  }
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin:16px 0 8px;}
+  .stat{background:#fafbfc;border:1px solid var(--line);border-radius:10px;padding:13px 15px;}
+  .stat .v{font-size:19px;font-weight:700;color:var(--accent);letter-spacing:-.01em;}
+  .stat .k{font-size:12px;color:var(--ink-3);margin-top:3px;line-height:1.5;}
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:14px 0 6px;}
+  .box{border:1px solid var(--line);border-radius:10px;padding:15px 17px;background:#fafbfc;}
+  .box.good{background:var(--green-soft);border-color:#d3e8dd;}
+  .box.bad{background:var(--accent-soft);border-color:#f3ded9;}
+  .box h4{margin:0 0 9px;font-size:13.5px;font-weight:700;}
+  .box.good h4{color:var(--green);}
+  .box.bad h4{color:var(--accent);}
+  .box ul{padding-left:18px;margin:0;}
+  .box li{font-size:13.5px;margin-bottom:6px;}
+  .timeline{position:relative;margin:18px 0 6px;padding-left:22px;}
+  .timeline::before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:var(--line);}
+  .tl-item{position:relative;margin-bottom:14px;}
+  .tl-item::before{
+    content:"";position:absolute;left:-22px;top:7px;width:9px;height:9px;border-radius:50%;
+    background:#fff;border:2px solid var(--blue);
+  }
+  .tl-item.risk::before{border-color:var(--accent);}
+  .tl-item.off::before{border-color:var(--green);}
+  .tl-date{font-size:13px;font-weight:700;color:var(--ink);}
+  .tl-desc{font-size:13.5px;color:var(--ink-2);}
+  .note{
+    background:var(--amber-soft);border:1px solid #f0e2bd;border-radius:10px;
+    padding:14px 17px;font-size:13px;color:var(--amber);line-height:1.7;
+  }
+  .note b{color:#6b5416;}
+  footer{text-align:center;font-size:12px;color:var(--ink-3);margin-top:26px;line-height:1.9;}
+  @media(max-width:640px){
+    .wrap{padding:20px 14px 60px;}
+    section,header.top{padding:20px 18px;}
+    .cols{grid-template-columns:1fr;}
+    h1{font-size:21px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <div class="kicker">视频内容总结</div>
+    <h1>李大霄直播回放_20260915-1626</h1>
+    <div class="meta">
+      <span><b>来源</b> 哔哩哔哩（BV1sjen6QEFP）</span>
+      <span><b>UP主</b> censensr（录播转载）</span>
+      <span><b>时长</b> 约 60 分 42 秒</span>
+      <span><b>发布时间</b> 2026-09-15</span>
+    </div>
+    <div class="oneliner">
+      <b>一句话概括：</b>美债 10 年期收益率破 5%，全球借贷成本与资金价格被系统性抬高。李大霄据此判断"高利率、低成交量"可能成为常态，旗帜鲜明地由进攻转向防御——用"矛与盾"解释攻守之别，用"做好人、买好股"给出好公司的具体筛选清单，并反复强调<b>不荐股、不替任何人做操作决策</b>。
+    </div>
+  </header>
+
+  <section>
+    <h2>一、起因：美债收益率破 5% <span class="ts">00:00 – 09:00</span></h2>
+    <p>开场他先解释为什么"十年期破 5"值得紧张——这是他长期提醒的风险，如今终于被更多人重视。</p>
+    <div class="grid">
+      <div class="stat"><div class="v">破 5%</div><div class="k">10 年期美债收益率，2023 年 10 月以来最高，距 2007 年以来新高仅一步之遥</div></div>
+      <div class="stat"><div class="v">4.15 → 5</div><div class="k">年内路径：年初 4.15%，2 月一度跌破 4%，5 月升破 4.5%</div></div>
+      <div class="stat"><div class="v">6.76%</div><div class="k">美国 30 年期固定抵押贷款平均利率（年初 6.15%）</div></div>
+      <div class="stat"><div class="v">40 万亿</div><div class="k">美国国债总规模量级；每年约 1 万亿美元用于付息</div></div>
+    </div>
+    <p>他的逻辑链：10 年期收益率是整个经济借贷成本的<b>基准</b>，与房贷、车贷利率高度相关。破 5% 不等于"世界末日"，但会显著抬高美国消费者与企业的融资成本。</p>
+    <p>关于美国债务，他有一句很重的判断——<b>"还的是息，不是本，本是没法还的"</b>，因此<b>高利率状态可能是常态</b>。</p>
+
+    <h3>破 5% 之后怎么办？他给出三条</h3>
+    <ul>
+      <li><b>靠资金堆起来的标的，未必还行。</b>没有盈利与现金流支撑的上涨，在高利率下最先失血。</li>
+      <li><b>股息率超过 5% 的高股息品种可以考虑。</b>用分红去对冲无风险利率的上行。</li>
+      <li><b>选股门槛大幅提高。</b>过去"什么股票都能选"，现在只能挑极少数真正低估的好公司。</li>
+    </ul>
+    <div class="quote">"原来啥股票都可以选，这样的一个角度，可能只能选一些非常非常好的。这是第一个要改变的。"</div>
+    <p>第二个要改变的是<b>成交量</b>：他认为<b>低量才是常态，巨量只是特殊时点下转瞬即逝的现象</b>，把巨量当常态并不客观。</p>
+  </section>
+
+  <section>
+    <h2>二、加息预期与全球资金链条 <span class="ts">07:50 – 13:30</span></h2>
+    <p>他判断加息概率仍然偏高（他提到约 89%），依据有两个：一是期限结构本身，二是通胀水平带来的压力。</p>
+    <div class="grid">
+      <div class="stat"><div class="v">5.39% / 4.33%</div><div class="k">30 年期 / 1 年期美债收益率，隐含仍有加息可能</div></div>
+      <div class="stat"><div class="v">107</div><div class="k">油价（他形容为"倒挂"，并解读为博弈谈不拢的结果）</div></div>
+      <div class="stat"><div class="v">163 → 154</div><div class="k">日元汇率的快速变化区间</div></div>
+      <div class="stat"><div class="v">-5%+</div><div class="k">费城半导体指数当日跌幅</div></div>
+    </div>
+    <p>当日市场在他看来"很奇怪"：<b>指数在跌，科技七姐妹在涨，费城半导体暴跌 5% 以上</b>；亚洲方面日本几乎持平，韩国跌 0.85%，SK、三星跌幅都不到 0.5%（相对抗跌）；港股偏弱，恒指跌 1%，恒科跌 0.62%。</p>
+
+    <h3>他最担心的一条隐藏链条：日元套息交易</h3>
+    <p>日元从 163 大幅走强到 154，叠加日本央行加息，会<b>双向挤压套息交易</b>——即"从日本借便宜钱、去买美债美股"的资金。套息规模收缩 → 流动性被抽走 → 股市承压。他把这视为美债收益率上行向股市传导的重要通道。</p>
+  </section>
+
+  <section>
+    <h2>三、攻守之辨：矛与盾 <span class="ts">13:30 – 17:00 / 32:50 – 33:40</span></h2>
+    <p>这是全场最有传播力的一段比喻。</p>
+    <ul>
+      <li><b>防守 ≠ 清仓。</b>他引用巴菲特的"六四开"，说明防御是仓位与品种的结构问题，不是"一刀切"。</li>
+      <li><b>进攻品与防守品是两类东西。</b>进攻品在进攻时显示优势，防守品在市场回撤时显示优势——就像矛与盾，用途和功能完全不同。</li>
+      <li><b>品种划分（他说"这不是推荐"）：</b>成长偏进攻；价值、红利、高股息、央企、银行偏防守。</li>
+    </ul>
+    <div class="quote">"往前冲的时候抓矛，防守的时候抓盾。这两个东西是有区别的。"</div>
+    <p>有网友说"防守不也跌了吗"，他用古代方阵回应：<b>整个方阵举着盾牌往前平推一步，是防守；大石头砸过来，整个方阵后退三步、五步、十步，同样是防守。</b>进攻则像骑兵奔袭一夜千里，是完全不同的动作。所以<b>防守并不等于不跌</b>。</p>
+    <p>对于"进攻就是最好的防守"这句流行话，他的态度是"也对也不对"：买到处在进攻段的好品种当然对；但进攻品<b>进攻有多猛，回撤就有多猛</b>，一旦买到回撤那一段，就全完了。</p>
+  </section>
+
+  <section>
+    <h2>四、问答：现金、衍生品、保险与银行 <span class="ts">16:40 – 31:00</span></h2>
+    <ul>
+      <li><b>清仓是最彻底的防守，但现金本身也有风险。</b>如果资产涨价了，现金的购买力就相对贬值——只是很多人不把现金风险计算在内。</li>
+      <li><b>牛证、熊证等衍生品，普通人不要碰。</b>"能碰这些的都不是普通人"。</li>
+      <li><b>关于"抛售美债"：</b>这是风险管理与均衡配置问题，投资品类很多，债券市场也是一个大类，不能押注单一品种。</li>
+      <li><b>保险：</b>弹性比银行大（上行下行都大）。保险最大的问题是<b>负债端相对刚性，而资产端存在不确定性</b>。他判断，能否找到长期优质、收益远超负债成本的资产，才是保险长期价值的立足点，这里需要下大功夫研究。</li>
+      <li><b>银行：</b>不要盯着月线看，要看 20 年线；而且要<b>低位买、不要追高</b>。他补了一句："我说的一切都不能作为推荐、建议。"</li>
+      <li><b>"好人股"该买一只还是分散？</b>他建议新手从 <b>ETF 一揽子</b>起步（"一揽子就买一千家"），学会了、毕业了再逐步集中到五十家、三百家；水平高就聚焦少数好公司，求稳就适度分散，因人而异。"能把 ETF 投资好，已经非常了不得了。"</li>
+      <li><b>"李大霄喊话清仓"——他明确否认：从来没有。</b></li>
+      <li>谈到"抽水"现象，他点名美国 AI 大模型相关的千亿级融资、以及太空探索技术公司的 750 亿融资，认为这类抽水比较明显。</li>
+    </ul>
+    <p>另外他提到一个自己认为的<b>分水岭信号</b>：中国<b>直接融资比例首次超过间接融资比例</b>，他认为这是一个非常大的进步与趋势，意味着迈入新阶段。</p>
+    <p>关于美元与人民币，他的长期判断是<b>人民币崛起、美元衰落，此消彼长</b>，并强调讲的是 10 年、20 年以上的长周期。</p>
+  </section>
+
+  <section>
+    <h2>五、美国的赌局 <span class="ts">35:20 – 39:00</span></h2>
+    <p>谈美元未来时，他把变量收敛到一点：<b>AI 能否如期成功</b>。成功，美元另当别论；不成功，则如他引述美方人士的担忧，"一切都完了"。</p>
+    <p>他的论据是产业结构层面的：美国缺乏完整产业链、制造业空心化、人工成本高（他形容为"一个人等于我们七个人的工资"）、且不加班的程度不同。用他的原话，美国是在<b>"全力赌一把"</b>。</p>
+  </section>
+
+  <section>
+    <h2>六、好公司检查清单：做好人，买好股 <span class="ts">39:00 – 48:30</span></h2>
+    <p>这是他全场<b>最可操作</b>的一段，也解释了他为何反复强调"做好人、买好股"——按他的说法，这句话<b>是有逻辑、有根据的</b>，不是口号。</p>
+    <p>他先给出心态前提：市场狂热时不过度激进，市场低迷时不过度丧失信心；情绪稳定、心态平和；把标的研究得清清楚楚，之后<b>任风吹浪打都不动摇</b>。以及反复强调的一条：<b>控制杠杆</b>。</p>
+
+    <div class="cols">
+      <div class="box good">
+        <h4>✓ 可以考虑的特征</h4>
+        <ul>
+          <li>能持续分红——"每年往我口袋塞钱"，一年两次或四次</li>
+          <li>有外资在买</li>
+          <li>社保、保险、储蓄资金要进场</li>
+          <li>公司在不断回购</li>
+          <li>有员工持股计划，员工自己都在买</li>
+          <li>董事长只买不卖</li>
+          <li>有持续的发明创造，不断推出适销对路、不坑人的新产品</li>
+          <li>员工在背后真心说董事长与公司的好话</li>
+        </ul>
+      </div>
+      <div class="box bad">
+        <h4>✗ 应当回避的特征</h4>
+        <ul>
+          <li>董事长今天就在往外卖股份</li>
+          <li>高管偷偷摸摸减持</li>
+          <li>员工谁都不敢买自己的股票</li>
+          <li>"铁公鸡"——几十年不分红还拼命从公司掏钱</li>
+          <li>把公司当提款机：自己去开飞机、坐游艇、追明星</li>
+          <li>把员工当奴隶、把股东当提款机</li>
+          <li>总经理/高管层面只想着"扒董事长的皮"</li>
+        </ul>
+      </div>
+    </div>
+    <div class="quote">"他把员工当奴隶，那把股东当什么？当提款机。这怎么能买，一定要擦亮双眼。"</div>
+    <p>他还提到写那本"小书"的目的：<b>不要踩坑</b>。很多人没弄懂就贸然冲进市场，这才是最要命的。有网友把书翻到第 85 页放在老婆床头，他笑称这本书的关键"不是给你看的，是给你老婆看的"。</p>
+  </section>
+
+  <section>
+    <h2>七、资金量、入手时机与"防御多久" <span class="ts">52:00 – 60:42</span></h2>
+
+    <h3>小资金能不能做价值投资？</h3>
+    <p>能。他的论证很直接：<b>任何大资金都是从小资金慢慢成长起来的</b>。不是人人都在管汇金、管社保、管公募，钱不是掉下来的，是一点一点积累的。"非得大资金才能价值投资"是错的观念。</p>
+
+    <h3>什么时候是合理入手价？</h3>
+    <p>他给了两个版本的回答——</p>
+    <ul>
+      <li><b>哲学表述：</b>"众人抛弃它的时候，就该入手。"</li>
+      <li><b>量化表述：</b>当你算到它的投资回报率令自己满意时，就可以入手。</li>
+    </ul>
+    <p>他举了最简的例子：一块钱的东西卖五毛就入手；如果继续跌到两毛五，再多买一点；再跌到一毛二分五，再买多一点。反面情况是——<b>如果你非要等一毛二分五，它可能五毛钱就涨回去了，你等不到。</b></p>
+
+    <h3>防御要防御多久？</h3>
+    <p>他的答案：<b>防御到下一次从防御转为进攻的时候。</b></p>
+    <div class="timeline">
+      <div class="tl-item off">
+        <div class="tl-date">2024 年 9 月 18 日（及之前三年布局期）</div>
+        <div class="tl-desc">进攻阶段的起点，一路进攻到今年。</div>
+      </div>
+      <div class="tl-item risk">
+        <div class="tl-date">今年需警惕时点：1/14、1/29、3/3、5/14、6/22</div>
+        <div class="tl-desc">他列的年内风险节点；另加 8/13（标普）、8/5（道指）。</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">当下</div>
+        <div class="tl-desc">处于防御阶段。</div>
+      </div>
+      <div class="tl-item off">
+        <div class="tl-date">下一个周期</div>
+        <div class="tl-desc">再从防御转为进攻。</div>
+      </div>
+    </div>
+    <p>他强调这<b>只是大盘层面的节奏</b>，里面的板块和个股各不相同、差距很大，不能一概而论。对于"赚了 95% 要不要摘栗子"，他的态度也是因品种而异：如果还没有过度高估、仍在投资区域，继续持有也无妨。</p>
+    <p>临近结尾他补了一句："今天我是在开会的间歇给大家播的"——下午他在参加财经论坛。</p>
+  </section>
+
+  <section>
+    <h2>全场反复出现的三条"免责"</h2>
+    <ul>
+      <li><b>不推荐任何品种。</b>"我说的一切都不能作为推荐、建议。"</li>
+      <li><b>不替任何人做决策。</b>每个人风险承受能力、心理素质和意愿都不同，不能一概而论。</li>
+      <li><b>不要"抄作业"。</b>重要的是弄懂道理，把知识变成自己的，才能在波动里不丢掉筹码。</li>
+    </ul>
+    <div class="note">
+      <b>说明：</b>本总结基于该视频的语音自动转写整理。原始录播无字幕，个别专有名词、数字与人名可能存在识别误差（例如"一揽子"实为 ETF 之意、部分网友昵称已略去）。关键数字与观点已按上下文校对，但如需引用请以原视频为准。<br>
+      本视频内容为第三方观点，不构成任何投资建议。
+    </div>
+  </section>
+
+  <footer>
+    视频地址：https://www.bilibili.com/video/BV1sjen6QEFP/　·　整理时间：2026-09-15
+  </footer>
+
+</div>
+</body>
+</html>
